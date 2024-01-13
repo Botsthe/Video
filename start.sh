@@ -1,10 +1,10 @@
 if [ -z $UPSTREAM_REPO ]
 then
   echo "Cloning main Repository"
-  git clone https://github.com/Singhsawan/Verifyrepo.git /Verifyrepo
+  git clone https://github.com/Botsthe/Video.git /Video
 else
   echo "Cloning Custom Repo from $UPSTREAM_REPO "
-  git clone $UPSTREAM_REPO /Verifyrepo
+  git clone $UPSTREAM_REPO /Video 
 fi
 cd /Elsa
 pip3 install -U -r requirements.txt
